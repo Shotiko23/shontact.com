@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shontact</title>
+</head>
+<body>
+    <header>
+        <h1>Shontact</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#companies">Companies</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to our Business Networking Platform</h2>
+        <p>Sign up and contact with the companies of your wish.</p>
+    </section>
+
+    <section id="companies">
+        <h2>Featured Companies</h2>
+        <div class="company-card" onclick="toggleCompanyDetails(this)">
+            <img src="Unknown 23 spilo.png" alt="Company 1 Logo">
+            <h3>Metro Production</h3>
+            <p>Metro Production is the biggest production company in Georgia.
+                The company established 15 years ago and since then has been the greatest production company in our country, for more info. contact them using the linbk below 
+            </p>
+            <a href="https://www.facebook.com/photo/?fbid=658359489623842&set=a.658359476290510">Facebook</a>
+            <div class="company-details" style="display: none;">
+                <p>Contact: info@metroproductio.ge</p>
+                <p>Location: Tbilisi, Chavchavadze 53</p>
+            </div>
+        </div>
+
+        <div class="company-card" onclick="toggleCompanyDetails(this)">
+            <img src="Unknown.png" alt="Company 2 Logo">
+            <h3>Rondeli Foundation</h3>
+            <p>The Georgian Foundation for Strategic and International Studies also known as Rondeli Foundation is one of Georgia's leading independent think tanks, based in Tbilisi. It was founded in 1998 with the declared aim of "helping improve public policy decision-making in Georgia through research and analysis, training of policymakers and policy analysts, and public education about the strategic issues, both domestic and international, facing Georgia and the Caucasus".[1] It has played an important role in training new public servants and scholars..</p>
+            <a href="https://www.facebook.com/GFSIS/">Facebook</a>
+            <div class="company-details" style="display: none;">
+                <p>Contact: info@gfsis.org</p>
+                <p>Location: Tbilisi, Chitadze 3a</p>
+            </div>
+        </div>
+        <!-- Add more company cards as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach out to us!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Business Networking Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
